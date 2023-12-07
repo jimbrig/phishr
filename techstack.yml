@@ -1,0 +1,183 @@
+repo_name: jimbrig/phishr
+report_id: c0d8506a67fb3cbbcd0c07de4b0ae434
+repo_type: Public
+timestamp: '2023-12-07T20:27:57+00:00'
+requested_by: MayaGans
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: R Language
+  description: A language and environment for statistical computing and graphics
+  website_url: http://www.r-project.org/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1213/r-logo.png
+  detection_source: Repo Metadata
+- name: ggplot2
+  description: A data visualization package for the statistical programming language
+    R
+  website_url: https://ggplot2.tidyverse.org/
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Charting Libraries
+  image_url: https://img.stackshare.io/service/6560/New_Project__90_.png
+  detection_source: DESCRIPTION
+  last_updated_by: levisc8
+  last_updated_on: 2019-11-16 17:11:37.000000000 Z
+- name: JSONlite
+  description: A simple, serverless, zero-configuration JSON document store
+  website_url: https://github.com/nodesocket/jsonlite
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source: Repo Metadata
+- name: attempt
+  description: Tools for Defensive Programming
+  package_url: https://cran.r-project.org/attempt
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: curl
+  description: A Modern and Flexible Web Client for R
+  package_url: https://cran.r-project.org/curl
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: dplyr
+  description: A Grammar of Data Manipulation
+  package_url: https://cran.r-project.org/dplyr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: levisc8
+  last_updated_on: 2019-11-16 17:11:37.000000000 Z
+- name: ggplot2
+  description: Create Elegant Data Visualisations Using the Grammar of Graphics
+  package_url: https://cran.r-project.org/ggplot2
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: levisc8
+  last_updated_on: 2019-11-16 17:11:37.000000000 Z
+- name: httr
+  description: Tools for Working with URLs and HTTP
+  package_url: https://cran.r-project.org/httr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: jsonlite
+  description: A Simple and Robust JSON Parser and Generator for R
+  package_url: https://cran.r-project.org/jsonlite
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: purrr
+  description: Functional Programming Tools
+  package_url: https://cran.r-project.org/purrr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: rlang
+  description: Functions for Base Types and Core R and 'Tidyverse' Features
+  package_url: https://cran.r-project.org/rlang
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: levisc8
+  last_updated_on: 2019-11-16 17:11:37.000000000 Z
+- name: stringr
+  description: Simple, Consistent Wrappers for Common String Operations
+  package_url: https://cran.r-project.org/stringr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: testthat
+  description: Unit Testing for R
+  package_url: https://cran.r-project.org/testthat
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
+- name: textreadr
+  description: Read Text Documents into R
+  package_url: https://cran.r-project.org/textreadr
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: levisc8
+  last_updated_on: 2019-11-16 17:11:37.000000000 Z
+- name: zoo
+  description: S3 Infrastructure for Regular and Irregular Time Series
+  package_url: https://cran.r-project.org/zoo
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/cran/image.png
+  detection_source: DESCRIPTION
+  last_updated_by: Maya
+  last_updated_on: 2019-07-27 02:18:47.000000000 Z
